@@ -1,0 +1,19 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Processador Intel Core i7 9700f 4.0Ghz",
+      "price": "R$ 2.999,00"
+    },
+    {
+      "id": 2,
+      "name": "Placa de Video Geforce GTX 1050 4GB",
+      "price": "R$ 3.100,00"
+    },
+    {
+      "id": 3,
+      "name": "memoria RAM 8GB corsair Vengeance Pro 4200MHz DDR4",
+      "price": "R$ 750,00"
+    }
+  ]
+}
