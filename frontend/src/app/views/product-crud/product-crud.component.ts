@@ -11,5 +11,8 @@ export class ProductCrudComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  fazerAlgo(): void {
+    console.log('Fazendo algo...')
+  }
 
 }
