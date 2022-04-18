@@ -11,8 +11,11 @@ export class ProductCrudComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  fazerAlgo(): void {
-    console.log('Fazendo algo...')
+
+  navegateToProductCreate(): void {
+    console.log('Navegando para o produto...')
   }
 
-}
+  }
+
+
