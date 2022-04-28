@@ -14,6 +14,11 @@
       "id": 3,
       "name": "memoria RAM 8GB corsair Vengeance Pro 4200MHz DDR4",
       "price": "R$ 750,00"
+    },
+    {
+      "name": "Produto teste",
+      "price": 120,
+      "id": 4
     }
   ]
 }

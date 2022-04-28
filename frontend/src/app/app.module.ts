@@ -42,7 +42,7 @@ import { MatInputModule } from '@angular/material/input';
   ],
   imports: [
 
-  BrowserModule,
+    BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MatToolbarModule,

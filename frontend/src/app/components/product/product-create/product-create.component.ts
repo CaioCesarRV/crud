@@ -12,7 +12,7 @@ import { Product } from './../product.model';
 })
 export class ProductCreateComponent implements OnInit {
 
-  Product: Product = {
+  product: Product = {
     name: '',
     price: 0
     }
@@ -25,7 +25,7 @@ export class ProductCreateComponent implements OnInit {
     
   }
   createProduct(): void {
-    this.ProductService.create(this.Product).subscribe(() => {
+    this.ProductService.create(this.product).subscribe(() => {
       this.ProductService.showMessage('Produto cadastrado com sucesso!')
         this.router.navigate(['/Products'])
   })
