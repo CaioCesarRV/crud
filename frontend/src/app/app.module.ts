@@ -21,6 +21,8 @@ import { ForDirective } from './directives/for.directive';
 import { ProductCreateComponent } from './components/product/product-create/product-create.component';
 import { MatButtonModule } from '@angular/material/button';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
+
+
 import { HttpClientModule } from '@angular/common/http';
 
 
@@ -39,9 +41,10 @@ import { RouterModule } from '@angular/router';
     ProductCrudComponent,
     RedDirective,
     ForDirective,
-    ProductCreateComponent
+    ProductCreateComponent,
   ],
   imports: [
+    FormsModule,
     BrowserModule,
     RouterModule,
     AppRoutingModule,
@@ -53,9 +56,8 @@ import { RouterModule } from '@angular/router';
     MatButtonModule,
     MatSnackBarModule,
     HttpClientModule,
-    FormsModule,
     MatFormFieldModule,
-    MatInputModule,
+    MatInputModule
   ],
   providers: [],
   bootstrap: [AppComponent]

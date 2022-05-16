@@ -4,18 +4,15 @@ import { HttpClient } from '@angular/common/http';
 import { Product } from './product.model';
 import { Observable } from 'rxjs';
 
-
 @Injectable({
   providedIn: 'root'
 })
 export class ProductService {
 
-  baseUrl = "http://localhost:8111/products"
+  baseUrl = "http://localhost:8111/Products"
 
   constructor(
-      private snackBar: MatSnackBar,
-      private http: HttpClient) {  }
-
+      private snackBar: MatSnackBar, private http: HttpClient) { }
   showMessage(message: string): void {
     this.snackBar.open(message, 'Fechar', {
       duration: 3000,
@@ -24,9 +21,9 @@ export class ProductService {
   })
 }
 
-create(product: Product): Observable<Product> {
+create(product: Product): Observable<Product>{
   return this.http.post<Product>(this.baseUrl, product)
-
+}
 }
 
-}
+
